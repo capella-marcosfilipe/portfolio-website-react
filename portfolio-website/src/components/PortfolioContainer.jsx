@@ -22,14 +22,21 @@ export default function PortfolioContainer({ portfolio }) {
           ))}
         </div>
       </div>
-      <a className="presentation__portfolio__link" href={portfolio.link}>
-        <img
-          className="presentation__links__link__icon"
-          src={github}
-          alt="GitHub logo"
-        />
-        Check it on GitHub
-      </a>
+      <div className="presentantion__portfolio__project__links">
+        <a className="presentation__portfolio__link" href={portfolio.link}>
+          <img
+            className="presentation__links__link__icon"
+            src={github}
+            alt="GitHub logo"
+          />
+          Check it on GitHub
+        </a>
+        {portfolio.deploy && (
+          <a className="presentation__portfolio__link" href={portfolio.deploy}>
+            Check it live
+          </a>
+        )}
+      </div>
     </sector>
   );
 }
