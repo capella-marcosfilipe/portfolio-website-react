@@ -24,13 +24,13 @@ export default function Home() {
           <p className="presentation__content__description">
             I am a{" "}
             <strong className="presentation__content__description__strong">
-              Back-end Web Developer
+              Full-stack Web Developer
             </strong>{" "}
-            specialized in Node.js and Nest.js working with MySQL and NoSQL. I
-            am passionate about programming and I am always looking for new
-            challenges and learning new technologies. I follow a T-shaped
-            professional approach delving into Product Design and Front-End
-            technologies such as React.js.
+            specialized in Back-End integration with Node.js working with MySQL
+            and NoSQL databases. I am passionate about programming and I am
+            always looking for new challenges and learning new technologies. I
+            follow a T-shaped professional approach delving into UX/UI Design
+            and Front-End technologies such as React.js.
           </p>
           <p className="presentation__content__description">
             If you&#39;re interested in my work, contact me at any of my links
